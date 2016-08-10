@@ -5,7 +5,7 @@ describe Teespring do
   let(:teespringApi){Teespring::Api.new(auth_token)}
 
   it "should return 1000 inks" do
-    expect(teespringApi.inks["inks"].length).to eq(10000)
+    expect(teespringApi.inks.length).to eq(10000)
   end
 
   it "should return 1 practice question" do
