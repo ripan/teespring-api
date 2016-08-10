@@ -1,8 +1,8 @@
 require_relative '../lib/teespring/ink'
 
-describe Ink do
+describe Teespring::Ink do
 
-  let(:ink) { Ink.new }
+  let(:ink) { Teespring::Ink.new }
   it "should have color"
   it "should have cost per unit volume"
 

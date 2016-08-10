@@ -1,8 +1,8 @@
 require_relative '../lib/teespring/question'
 
-describe Question do
+describe Teespring::Question do
 
-  let(:layer) { Question.new }
+  let(:layer) { Teespring::Question.new }
   it "should have number of layers"
 
 end

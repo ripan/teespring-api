@@ -1,8 +1,8 @@
 require_relative '../lib/teespring/layer'
 
-describe Layer do
+describe Teespring::Layer do
 
-  let(:layer) { Layer.new }
+  let(:layer) { Teespring::Layer.new }
   it "should have color"
   it "should have volume"
 
